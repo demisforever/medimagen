@@ -14,13 +14,15 @@ import {
     SocialIconLink,
 } from './FooterElements';
 
+import Nav from 'react-bootstrap/Nav';
+
 function Footer() {
     return (
         <FooterContainer>
             <FooterWrap>
                 <SocialMedia>
                     <SocialMediaWrap>
-                        <SocialLogo to='#home'>
+                        <Nav.Link href='#header'>
                             <img
                                 src={logoRotorBlue}
                                 height="40"
@@ -28,7 +30,7 @@ function Footer() {
                                 className="d-inline-block align-top"
                                 alt="React Bootstrap logo"
                             />
-                        </SocialLogo>
+                        </Nav.Link>
                         <SocialIcons>
                             <SocialIconLink
                                 href="https://wa.me/5493482599595"

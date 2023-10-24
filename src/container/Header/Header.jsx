@@ -7,7 +7,7 @@ import pc from "../../assets/pc.png";
 import "./Header.css";
 
 const Header = () => (
-  <div className="app__header app__wrapper section__padding" id="home">
+  <div className="app__header app__wrapper section__padding" id="header">
 
     <div className="app__wrapper_img App-header">
       <img src={logoRotorBlue} className="App-logo" alt="logo" />
