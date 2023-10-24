@@ -3,7 +3,7 @@
 }
 
 .App-logo {
-  position: absolute;
+  /*position: absolute;*/
   height: 70vmin;
   pointer-events: none;
 }
@@ -189,7 +189,7 @@
   }
 
   .app__wrapper_img {
-    margin: 5rem 0 0 0;
+    /*margin: 5rem 0 0 0;*/
   }
 
   .app__wrapper_img-reverse {
@@ -198,6 +198,10 @@
 
   .app__wrapper_img img {
     width: 100%;
+  }
+
+  .app__wrapper_img .med-imagen-logo {
+    width: 100vmin;
   }
 }
 
