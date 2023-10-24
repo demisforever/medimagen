@@ -38,7 +38,16 @@ const FindUs = () => (
     </div>
 
     <div className="app__wrapper_img">
-      <img src={entrada} alt="finus_img" />
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d521.2627044873049!2d-59.35508566023105!3d-28.49088261472818!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x944f1b20c96bfce1%3A0x111aeb60cc7ff06!2sMedImagen!5e0!3m2!1ses-419!2sar!4v1698175966322!5m2!1ses-419!2sar"
+        width="600"
+        height="450"
+        style={{ border: 0 }}
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+       {/*<img src={entrada} alt="finus_img" /> */}
     </div>
   </div>
 );

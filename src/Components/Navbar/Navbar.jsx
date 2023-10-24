@@ -9,7 +9,7 @@ function ColorSchemesExample() {
         <Container>
           <Nav className="me-auto">
             <Nav.Link href="#about">Quienes somos</Nav.Link>
-            <Nav.Link href="#contact">Contact</Nav.Link>
+            <Nav.Link href="#contact">Contacto</Nav.Link>
           </Nav>
         </Container>
       </Navbar>

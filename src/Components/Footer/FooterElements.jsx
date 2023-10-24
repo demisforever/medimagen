@@ -2,8 +2,10 @@ import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
 export const FooterContainer = styled.footer`
-	background-color: #0d0909;
-`;
+	background-color: #0d0909
+	
+`; /* --bs-bg-opacity: 1;
+background-color: rgba(var(--bs-dark-rgb),var(--bs-bg-opacity))!important; */
 
 export const FooterWrap = styled.div`
 	padding: 16px 24px;
