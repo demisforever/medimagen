@@ -90,6 +90,7 @@
   justify-content: center;
   /*align-items: flex-start;*/
   flex-direction: column;
+  margin-top: 25px;
 }
 
 .app__wrapper_img {
@@ -188,20 +189,12 @@
     flex-direction: column;
   }
 
-  .app__wrapper_img {
-    /*margin: 5rem 0 0 0;*/
-  }
-
   .app__wrapper_img-reverse {
     margin: 0 0 5rem 0;
   }
 
   .app__wrapper_img img {
     width: 100%;
-  }
-
-  .app__wrapper_img .med-imagen-logo {
-    width: 100vmin;
   }
 }
 
